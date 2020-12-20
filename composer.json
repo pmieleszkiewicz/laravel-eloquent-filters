@@ -1,0 +1,38 @@
+{
+    "name": "pmieleszkiewicz/eloquent-filters",
+    "description": "Easy Eloquent models filtering",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "filters"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Mieleszkiewicz"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/database": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PMieleszkiewicz\\EloquentFilters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PMieleszkiewicz\\EloquentFilters\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PMieleszkiewicz\\EloquentFilters\\EloquentFiltersServiceProvider"
+            ]
+        }
+    }
+}
